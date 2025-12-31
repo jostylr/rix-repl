@@ -3,7 +3,7 @@ import {
   RationalInterval,
   Fraction,
   FractionInterval,
-} from "ratmath";
+} from "@ratmath/core";
 
 const evaluate = (ast) => {
   console.log("AST:", ast);
